@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane1" prefHeight="590.0" prefWidth="327.0" style="-fx-background-color: #2B292E; -fx-border-color: #ffe100; -fx-border-insets: 10; -fx-border-radius: 30; -fx-border-width: 5px;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchTitle">
+    <children>
+        <Button fx:id="b3" layoutX="88.0" layoutY="153.0" mnemonicParsing="false" styleClass="dark-blue" text="Search Book by Title" />
+      <TextField layoutX="70.0" layoutY="97.0" />
+      <Label layoutX="39.0" layoutY="205.0" prefHeight="297.0" prefWidth="250.0" />
+      <Button layoutX="130.0" layoutY="527.0" mnemonicParsing="false" onAction="#Back" styleClass="dark-blue" text="Back" />
+    </children>
+</AnchorPane>

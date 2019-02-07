@@ -1,0 +1,3 @@
+rootProject.name = 'grandle-app'
+include 'app'
+

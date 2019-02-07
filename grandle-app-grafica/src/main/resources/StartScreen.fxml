@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane1" prefHeight="590.0" prefWidth="327.0" style="-fx-background-color: #2B292E; -fx-border-color: #ffe100; -fx-border-insets: 10; -fx-border-radius: 30; -fx-border-width: 5px;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartScreen">
+   <children>
+      <Button fx:id="b1" layoutX="117.0" layoutY="137.0" mnemonicParsing="false" onAction="#OpenAddBook" styleClass="dark-blue" text="Add Book" />
+      <Button fx:id="b2" layoutX="93.0" layoutY="196.0" mnemonicParsing="false" onAction="#OpenSearchID" styleClass="dark-blue" stylesheets="@style.css" text="Search Book by ID" />
+      <Button fx:id="b3" layoutX="80.0" layoutY="260.0" mnemonicParsing="false" onAction="#OpenSearchAuthor" styleClass="dark-blue" text="Search Books by Author" />
+      <Button fx:id="b4" layoutX="88.0" layoutY="327.0" mnemonicParsing="false" onAction="#OpenSearchTitle" styleClass="dark-blue" text="Search Book by Title" />
+      <Button fx:id="b5" layoutX="106.0" layoutY="395.0" mnemonicParsing="false"  styleClass="dark-blue" text="Display Books" />
+   </children>
+</AnchorPane>

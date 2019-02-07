@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="box1" style="-fx-background-color: #2B292E;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxFXMLController">
+   <children>
+      <StackPane>
+         <children>
+            <Circle fx:id="c1" fill="#1f93ff00" radius="68.0" stroke="#ffe100" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 50;" />
+            <Circle fx:id="c2" fill="#1f93ff00" radius="129.0" stroke="#38424b" strokeType="INSIDE" strokeWidth="15.0" style="-fx-stroke-dash-array: 75;" />
+            <Circle fx:id="c3" fill="#1f93ff00" radius="183.0" stroke="#ffe100" strokeType="INSIDE" strokeWidth="20.0" style="-fx-stroke-dash-array: 90;" />
+         </children>
+      </StackPane>
+   </children>
+</HBox>
